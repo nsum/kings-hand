@@ -32,6 +32,8 @@ body {
     text-decoration: underline;
 }
 /*-----------------Hero Image-------------*/
+/*Below section was made by following example from "Love Running" walkthrough project,
+and altered accordingly to fit this project*/
 #hero-image-outer {
     width: 100%;
     height: 450px;
