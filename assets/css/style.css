@@ -5,6 +5,9 @@ body {
     font-family: "Roboto", sans-serif;
     color: #fafafa;
 }
+.container-fluid {
+    padding: 0;
+}
 /*-----------------Colors-------------*/
 .navbar-brand,.nav-link {
     color: inherit !important;
@@ -32,7 +35,7 @@ body {
     text-decoration: underline;
 }
 /*-----------------Hero Image-------------*/
-/*Inspiration for below section was hero image effect from Code Institute's "Love Running" walkthrough project,
+/*Inspiration for hero image zoom effect was Code Institute's "Love Running" walkthrough project,
 and altered accordingly to fit this project*/
 #hero-image-outer {
     width: 100%;
@@ -47,6 +50,14 @@ and altered accordingly to fit this project*/
     animation-name: hero-zoom;
     animation-duration: 4.5s;
     animation-fill-mode: forwards;
+}
+@keyframes hero-zoom {
+    from    {
+        transform: scale(1.3);
+    }
+    to  {
+        transform: scale(1.1);
+    }
 }
 #hero-social i{
     color: #e1306c;
@@ -65,12 +76,8 @@ and altered accordingly to fit this project*/
     margin: 0.5rem 2rem;
     padding: 0.2rem 1.4rem;
 }
-
-@keyframes hero-zoom {
-    from    {
-        transform: scale(1.3);
-    }
-    to  {
-        transform: scale(1.1);
-    }
+/*-----------------Alert Section-------------*/
+.alert a {
+    float: right;
+    margin-right: 1.6rem;
 }
