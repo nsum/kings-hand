@@ -32,7 +32,7 @@ body {
     text-decoration: underline;
 }
 /*-----------------Hero Image-------------*/
-/*Below section was made by following example from "Love Running" walkthrough project,
+/*Inspiration for below section was hero image effect from Code Institute's "Love Running" walkthrough project,
 and altered accordingly to fit this project*/
 #hero-image-outer {
     width: 100%;
@@ -47,6 +47,13 @@ and altered accordingly to fit this project*/
     animation-name: hero-zoom;
     animation-duration: 4.5s;
     animation-fill-mode: forwards;
+}
+#hero-social i{
+    color: #e1306c;
+    font-size: 1.6rem;
+    top: 20px;
+    right: 20px;
+    position: absolute;
 }
 @keyframes hero-zoom {
     from    {
