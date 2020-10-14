@@ -3,17 +3,20 @@ body {
     height: 100%;
     width: 100%;
     font-family: "Roboto", sans-serif;
-    color: #fafafa;
+    color: #ee9999;
 }
 .container-fluid {
     padding: 0;
 }
+hr.hr-divider {
+    border-top: 1px solid #fafafa;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 /*-----------------Colors-------------*/
 .navbar-brand,.nav-link {
     color: inherit !important;
-}
-.hr-light {
-    background-color: #fafafa;
 }
 .container-grey {
     background-color: #343a40;
@@ -84,12 +87,13 @@ and altered accordingly to fit this project*/
     padding: 0.2rem 1.4rem;
 }
 /*-----------------Alert Section-------------*/
-.alert a {
+.alert-btn a {
+    position: relative;
     float: right;
-    margin-right: 1.6rem;
 }
 .alert {
     margin-bottom: 0;
+    background-color: #fafafa !important;
 }
 /*-----------------Image Slider-------------*/
 .headings {

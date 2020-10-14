@@ -50,15 +50,19 @@
     </section>
     <!--Alert-->
     <div class="container-fluid">
-        <div class="alert alert-dark" role="alert">
-            <strong>Due to government's Covid-19 restrictions, face coverings are now mandatory and no more than 2 persons are allowed in the salon at one time.</strong>
-            <a href="#" type="button" class="btn btn-danger btn-sm">Find Out More</a>
+        <div class="row alert alert-dark" role="alert">
+            <div class="col-md-10">
+                <strong>Due to government's Covid-19 restrictions, face coverings are now mandatory and no more than 2 persons are allowed in the salon at one time.</strong>
+            </div>
+            <div class="col-md-2 alert-btn">
+                <a href="#" type="button" class="btn btn-danger btn-sm">Find Out More</a>
+            </div>
         </div>
     </div>
     <!--Gallery-->
-    <div class="container-fluid container-grey text-center">
+    <section class="container-fluid text-center container-grey">
         <h2 class="headings">Gallery</h2>
-        <hr class="hr-light">
+        <hr class="hr-divider">
         <div class="carousel slide" id="carousel-control" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
             <!-- Carousel items -->
@@ -104,7 +108,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="assets/images/gallery/img-21.jpg" alt="image slide" class="card-img-top">
+                                <img src="assets/images/gallery/img-27.jpg" alt="image slide" class="card-img-top">
                             </div>
                         </div>
                         <div class="col-md-4 clearfix d-none d-md-block">
@@ -130,11 +134,79 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <hr class="hr-light">
+        <hr class="hr-divider">
         <a href="gallery.html" type="button" class="btn btn-outline-light btn-lg">Visit Gallery</a>
-    </div>
+        <hr class="hr-divider">
+    </section>
     <div class="container-grey">
-        <h1>Next Section</h1>
+        <h2 class="headings text-center">About King's Hand</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="lead">A pile of stones ceases to be a pile of stones the moment a man begins to think of it carrying within himself a picture of the cathedral, said the famous Antoine de Saint-Exupéry. Nikola Lozić, a versatile young artist from Vinkovci, whose love for art started at an early age while trying to copy his uncle's drawings, thinks the same way.</p>
+                <a href="#" type="button" class="btn btn-primary btn-lg">Read Article</a>
+            </div>
+            <div class="col-md-4">
+                <img src="assets/images/img-article.jpg" alt="Nikola at work" class="img-fluid">
+            </div>
+        </div>
     </div>
+    <section class="container-fluid container-grey">
+        <h2 class="headings text-center">Services</h2>
+        <hr class="hr-divider">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="text-center uppercase">Tattoo</h4>
+                <p>bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.</p>
+            </div>
+            <div class="col-md-4">
+                <h4 class="text-center uppercase">Cover-up Tattoo</h4>
+                <p>bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.</p>
+            </div>
+            <div class="col-md-4">
+                <h4 class="text-center uppercase">Laser Removal</h4>
+                <p>bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.bla bla about tattoo.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid text-center container-grey">
+        <h2 class="headings">Reviews</h2>
+        <hr class="hr-divider">
+        <div class="carousel slide" id="review-control" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+            <!-- Carousel items -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <img src="assets/images/reviews/review-1.png" alt="image slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="assets/images/reviews/review-2.png" alt="image slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="assets/images/reviews/review-3.png" alt="image slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /carousel-items -->
+            <a href="#review-control" role="button" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#review-control" role="button" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <hr class="hr-divider">
+    </section>
 </body>
 </html>
