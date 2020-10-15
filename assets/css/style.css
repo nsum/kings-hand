@@ -127,3 +127,32 @@ and altered accordingly to fit this project*/
 .fa-instagram:hover {
     color: #e1306c;
 }
+
+/* Media Queries */
+/*Extra small (xs) devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    #hero-buttons .btn {
+        margin: 0.5rem 2rem;
+    }
+    #hero-social {
+        display: none;
+    }
+}
+/*Small (sm) devices (landscape phones, 576px and up)*/
+@media (max-width: 767px) {
+    #hero-buttons .btn {
+        margin: 0.5rem 1rem;
+    }
+}
+/*Medium (md) devices (tablets, 768px and up)*/
+@media (max-width: 991px) {
+
+}
+/*Large (lg) devices (desktops, 992px and up)*/
+@media (max-width: 1199px) {
+
+}
+/*Extra (xl) large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
