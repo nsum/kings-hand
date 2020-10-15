@@ -4,22 +4,26 @@ body {
     width: 100%;
     font-family: "Roboto", sans-serif;
     color: #fafafa;
+    background-color: red;
 }
 .container-fluid {
     padding: 0;
 }
 hr.hr-divider {
-    border-top: 1px solid #fafafa;
+    border-top: 2px solid #fafafa;
     width: 90%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.row {
+    padding: 2rem;
 }
 /*-----------------Colors-------------*/
 .navbar-brand,.nav-link {
     color: inherit !important;
 }
 .container-grey {
-    background-color: #343a40;
+    background-color: #282828;
     color: #fafafa;
 }
 /*-----------------Navigation-------------*/
@@ -87,6 +91,12 @@ and altered accordingly to fit this project*/
     padding: 0.2rem 1.4rem;
 }
 /*-----------------Alert Section-------------*/
+.alert-container .row {
+    margin: 0;
+}
+.alert-container {
+    width: 95%;
+}
 .alert-btn a {
     position: relative;
     float: right;
@@ -127,6 +137,11 @@ and altered accordingly to fit this project*/
 .fa-instagram:hover {
     color: #e1306c;
 }
+/* Footer */
+#nsum {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
 
 /* Media Queries */
 /*Extra small (xs) devices (portrait phones, less than 576px)*/
@@ -137,6 +152,9 @@ and altered accordingly to fit this project*/
     #hero-social {
         display: none;
     }
+    .alert-container {
+    width: 100%;
+}
 }
 /*Small (sm) devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
