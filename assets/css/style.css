@@ -119,6 +119,13 @@ and altered accordingly to fit this project*/
 .carousel-item .col-md-4 {
     padding: 0 2rem;
 }
+/*-----------------Article-------------*/
+.article-row p {
+    padding-right: 1rem;
+}
+.article-row a {
+    
+}
 /*-----------------Social-------------*/
 .social-icons {
     font-size: 3rem;
@@ -168,7 +175,10 @@ and altered accordingly to fit this project*/
     .social-icons {
     font-size: 2rem;
     padding: 0.3rem 1rem;
-}
+    }
+    .article-row img {
+        padding-top: 1rem;
+    }
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
