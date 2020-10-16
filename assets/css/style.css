@@ -5,7 +5,7 @@ body {
     width: 100%;
     font-family: "Roboto", sans-serif;
     color: #fafafa;
-    background-color: red;
+    background-color: #282828;
 }
 .container-fluid {
     padding: 0;
@@ -24,12 +24,18 @@ hr.hr-divider {
     color: inherit !important;
 }
 .container-grey {
-    background-color: #282828;
+    background-color: inherit;
     color: #fafafa;
+}
+.navbar-dark {
+    background-color: rgba(40, 40, 40, 0.9) !important;
 }
 /*-----------------Navigation-------------*/
 .navbar {
     padding: 4px 12px 4px 12px;
+}
+.navbar {
+    border-bottom: 1px solid #fafafa;
 }
 .navbar-brand {
     padding: 0;
