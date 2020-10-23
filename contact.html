@@ -38,7 +38,24 @@
             </ul>
         </div>
     </nav>
-    
+    <div class="container-fluid form-container">
+        <form class="contact-form" method="post" action="https://formdump.codeinstitute.net/">
+            <h2 class="text-center">Get In Touch!</h2>
+            <label for="name">Name:</label>
+            <input type="text" class="form-input" name="name" id="name" required>
+            <label for="email">Email Address:</label>
+            <input type="email" class="form-input" name="email" id="email" required>
+            <br>
+            <label for="consultations">Consultations</label>
+            <input type="radio" name="consultations" value="consultations" id="consultations" required>
+            <label for="inquiries">Price Inquiries</label>
+            <input type="radio" name="inquiries" value="inquiries" id="inquiries">
+            <label for="follow-up">Follow-Up Appointment</label>
+            <input type="radio" name="follow-up" value="follow-up" id="follow-up">
+            <br>
+            <input type="submit" class="contact-button" value="Submit">
+        </form>
+    </div>
     <!--Footer-->
     <footer>
         <hr class="hr-divider">
