@@ -30,6 +30,16 @@ hr.hr-divider {
 .navbar-dark {
     background-color: rgba(40, 40, 40, 0.9) !important;
 }
+.btn-primary {
+    color: #282828 !important;
+    background-color: #fafafa !important;
+    border: 1px solid #fafafa !important;
+}
+.btn-primary:hover {
+    color: #fafafa !important;
+    background-color: #282828 !important;
+    border: 1px solid #fafafa !important;
+}
 /*-----------------Navigation-------------*/
 .navbar {
     padding: 4px 12px 4px 12px;
