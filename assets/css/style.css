@@ -167,8 +167,9 @@ and altered accordingly to fit this project*/
 }
 .social-footer {
     text-align: justify;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.4rem;
 }
 .social-footer:hover {
     color: #fafafa;
@@ -185,10 +186,13 @@ and altered accordingly to fit this project*/
 .fa-instagram {
     color: #e1306c;
 }
+footer .row {
+    padding: 1rem 2rem;
+}
 /*Gallery*/
 .video-container {
     padding-bottom: 3rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 /*About*/
 article img {
