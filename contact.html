@@ -38,22 +38,49 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid form-container">
+    <div class="container-fluid">
         <form class="contact-form" method="post" action="https://formdump.codeinstitute.net/">
-            <h2 class="text-center">Get In Touch!</h2>
-            <label for="name">Name:</label>
-            <input type="text" class="form-input" name="name" id="name" required>
-            <label for="email">Email Address:</label>
-            <input type="email" class="form-input" name="email" id="email" required>
-            <br>
-            <label for="consultations">Consultations</label>
-            <input type="radio" name="consultations" value="consultations" id="consultations" required>
-            <label for="inquiries">Price Inquiries</label>
-            <input type="radio" name="inquiries" value="inquiries" id="inquiries">
-            <label for="follow-up">Follow-Up Appointment</label>
-            <input type="radio" name="follow-up" value="follow-up" id="follow-up">
-            <br>
-            <input type="submit" class="contact-button" value="Submit">
+            <h2 class="text-center">Contact / Booking</h2>
+            <div class="form-row">
+                <div class="col-md-6 form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-input form-control" name="name" id="name" required placeholder="Enter Your Name">
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" class="form-input form-control" name="email" aria-describedby="sub-text" id="email" required placeholder="Enter Your Email Address">
+                    <small id="sub-text" class="form-text text-muted">Your name and email are confidential and won't be shared with any third parties</small>
+                </div>
+            </div>
+            <div class="form-row radio-row text-center">
+                    <div class="col-md-4 radio-items">
+                        <label for="follow-up">Folllow-Up Appointment</label>
+                        <input type="radio" id="follow-up" name="contact-type" value="follow-up" required>
+                    </div>
+                    <div class="col-md-4 radio-items">
+                        <label for="consultations">Consultations</label>
+                        <input type="radio" id="consultations" name="contact-type" value="consultations">
+                    </div>
+                    <div class="col-md-4 radio-items">
+                        <label for="price-inquiry">Price Inquiry</label>
+                        <input type="radio" id="price-inquiry" name="contact-type" value="price-inquiry">
+                    </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-8 form-group">
+                    <label for="form-text-area">Optional Text:</label>
+                    <br>
+                    <textarea name="form-control" id="form-text-area" cols="50" rows="5" placeholder="Purpose of your contact"></textarea>
+                </div>
+                <div class="col-md-4 form-group">
+                    <br class="d-none d-md-block"><br class="d-none d-md-block">
+                    <label for="file-upload">Optional Photo Upload: Show us what you have in mind</label>
+                    <input type="file" name="file" class="form-control-file" id="file-upload">
+                </div>
+            </div>
+            <div class="text-center">
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </div>
         </form>
     </div>
     <!--Footer-->

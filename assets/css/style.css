@@ -219,18 +219,15 @@ article p {
     padding-right: 0.8rem;
 }
 /*Contact Page*/
-.form-container {
-    height: 400px;
-}
 .contact-form {
     color: #fafafa;
-    border: 1px solid #fafafa;
+    border: 3px solid #fafafa;
     border-radius: 0.5rem;
-    position: absolute;
-    margin-top: 7rem;
-    max-width: 600px;
-    left: 15%;
+    margin: 4rem;
     padding: 1rem;
+}
+.radio-items {
+    padding: 0  2rem;
 }
 /* Media Queries */
 /*Extra small (xs) devices (portrait phones, less than 576px)*/
@@ -266,7 +263,9 @@ article p {
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
-
+    .radio-row {
+        text-align: left;
+    }
 }
 /*Large (lg) devices (desktops, 992px and up)*/
 @media (max-width: 1199px) {
