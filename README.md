@@ -1,6 +1,6 @@
-<h3 style="font-size:3rem; font-weight:700; font-family:Ubuntu"><span style="color:#d30303">n</span><span style="color:#636363;">sum</span></h3>
-<h2 style="text-align:center">Code Institute - Milestone Project 1</h2>
-<h1 style="text-align:center; font-weight:700">King's Hand Tattoo Salon Website</h1>
+
+##Code Institute - Milestone Project 1##
+#King's Hand Tattoo Salon Website#
 
 # Intro #
 Welcome, this is a website for King's Hand Tattoo Salon located in Vinkovci, Croatia.
@@ -11,5 +11,18 @@ so far during the course. After acquiring skills to 100% complete the website, i
 translated to another language, and deployed. 
 
 # Credits #
-## Media ##
-+ Hero image was created using [cooltext.com](https://cooltext.com/)
+##Tools Used##
++ [cooltext.com](https://cooltext.com/) - Creating hero image
++ [imagecompressor.com](https://imagecompressor.com/) - Compressing images
++ [hex2rgba.devoth.com](http://hex2rgba.devoth.com/) - Converting color formats
++ 
+##Acknowledgements##
++ [Nikola Lozic](https://www.instagram.com/kings_hand_tattoo/?hl=en) - Photos, materials & support
++ [codeinstitute.net](https://codeinstitute.net/) - Lessons, videos, tutoring & support
++ [Mark Railton](https://markrailton.com/) - Mentoring and guidance
++ [startbootstrap.com](https://startbootstrap.com/) - Idea for gallery layout
++ [github.com/othneildrew](https://github.com/othneildrew) - README template structure
++ [w3schools.com](https://www.w3schools.com/) - HTML5/CSS3 references & examples
++ [getbootstrap.com](https://getbootstrap.com/) - Bootstrap documentation & references
++ [Josip Stiburek](https://www.instagram.com/josipstiburek/?hl=en) - Gallery page video
++ 
