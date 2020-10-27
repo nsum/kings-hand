@@ -25,5 +25,12 @@ translated to another language, and deployed.
 + [getbootstrap.com](https://getbootstrap.com/) - Bootstrap documentation & references
 + [Josip Stiburek](https://www.instagram.com/josipstiburek/?hl=en) - Gallery page video
 + 
+### Wireframes ###
++ [Index Page](/assets/wireframes/index-wireframe.pdf)
++ [Gallery Page](/assets/wireframes/gallery-wireframe.pdf)
++ [Contact Page](/assets/wireframes/contact-wireframe.pdf)
++ [Services Page](/assets/wireframes/services-wireframe.pdf)
++ [About Page](/assets/wireframes/about-wireframe.pdf)
+
 ### Contact ###
 email: your.marketer1303@gmail.com
