@@ -65,6 +65,10 @@ hr.hr-divider {
     font-weight: 400;
     text-decoration: underline;
 }
+#contact-outline {
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+}
 /*-----------------Hero Image-------------*/
 /*Inspiration for hero image zoom effect was Code Institute's "Love Running" walkthrough project,
 and altered accordingly to fit this project*/
@@ -231,12 +235,29 @@ article p {
     margin: 4rem;
     padding: 1rem;
 }
-.radio-items {
-    padding: 0  2rem;
+.radio {
+    padding: 2rem 0rem 2rem 3rem;
 }
+.form-row {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.form-padding {
+    padding: 1rem 2rem;
+}
+#submit-button {
+    padding-top: 1rem;
+}
+
 /* Media Queries */
 /*Extra small (xs) devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
+    .contact-form {
+        margin: 2rem;
+    }
+    .radio {
+    padding: 0;
+    }
     #hero-social {
         display: none;
     }
@@ -250,9 +271,11 @@ article p {
         display: none;
     }
 }
-
 /*Small (sm) devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
+    #contact-outline {
+        border: none;
+    }
     #hero-buttons .btn {
         margin: 1rem 1rem;
     }
@@ -291,10 +314,9 @@ article p {
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
-    .radio-row {
-        text-align: left;
-    }
+    
 }
+
 /*Large (lg) devices (desktops, 992px and up)*/
 @media (max-width: 1199px) {
 
