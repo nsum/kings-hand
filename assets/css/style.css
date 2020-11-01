@@ -121,6 +121,7 @@ and altered accordingly to fit this project*/
 .alert {
     margin-bottom: 0;
     background-color: #fafafa !important;
+    padding: 1rem;
 }
 /*-----------------Carousels-------------*/
 .headings {
@@ -240,7 +241,7 @@ article p {
         display: none;
     }
     .alert-container {
-    width: 100%;
+    width: 95%;
     }
     .social-row {
         padding: 0;
