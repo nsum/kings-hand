@@ -140,6 +140,10 @@ and altered accordingly to fit this project*/
 .carousel-item .col-md-4 {
     padding: 0 2rem;
 }
+.carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+
 /*-----------------Article-------------*/
 .article-row p {
     padding-right: 1rem;
@@ -232,9 +236,6 @@ article p {
 /* Media Queries */
 /*Extra small (xs) devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-    #hero-buttons .btn {
-        margin: 0.5rem 2rem;
-    }
     #hero-social {
         display: none;
     }
@@ -248,10 +249,11 @@ article p {
         display: none;
     }
 }
+
 /*Small (sm) devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
     #hero-buttons .btn {
-        margin: 0.5rem 1rem;
+        margin: 1rem 1rem;
     }
     .social-icons {
     font-size: 2rem;
@@ -260,6 +262,31 @@ article p {
     .article-row img {
         padding-top: 1rem;
     }
+        /* Hero image for smaller displays */
+    #hero-image-outer {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    #hero-image {
+        height: 300px;
+        width: 100%;
+        background: url("/assets/images/hero-image-sm.png") no-repeat center center;
+        animation-name: hero-zoom;
+        animation-duration: 4.5s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes hero-zoom {
+        from    {
+            transform: scale(1.3);
+        }
+        to  {
+            transform: scale(1.0);
+        }
+    }
+    /* /Hero image */
+    
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
