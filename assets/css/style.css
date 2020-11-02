@@ -186,14 +186,18 @@ and altered accordingly to fit this project*/
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+#hr-footer-bottom {
+    border-top: 2px solid #fafafa;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
 #nsum {
     padding-right: 2rem;
 }
 
 .social-footer {
     text-align: justify;
-    padding-left: 4rem;
-    padding-right: 4rem;
     font-size: 1.4rem;
 }
 .social-footer:hover {
