@@ -40,6 +40,13 @@ hr.hr-divider {
     background-color: #282828 !important;
     border: 1px solid #fafafa !important;
 }
+.links a {
+    color: #fafafa;
+}
+.links a:hover {
+    color: #8506fc;
+    text-decoration: none;
+}
 /*-----------------Navigation-------------*/
 .navbar {
     padding: 4px 12px 4px 12px;
@@ -182,13 +189,7 @@ and altered accordingly to fit this project*/
 #nsum {
     padding-right: 2rem;
 }
-.links a {
-    color: #fafafa;
-}
-.links a:hover {
-    color: #fa991a;
-    text-decoration: none;
-}
+
 .social-footer {
     text-align: justify;
     padding-left: 4rem;
@@ -217,6 +218,9 @@ footer .row {
 .video-container {
     padding-bottom: 3rem;
     padding-top: 1rem;
+}
+.gallery-jumps {
+    padding: 0 1rem;
 }
 /*About*/
 article img {

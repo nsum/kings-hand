@@ -14,7 +14,7 @@ translated to another language, and deployed.
 + [cooltext.com](https://cooltext.com/) - Creating hero image
 + [imagecompressor.com](https://imagecompressor.com/) - Compressing images
 + [hex2rgba.devoth.com](http://hex2rgba.devoth.com/) - Converting color formats
-+ 
++ [kapwing.com](http://kapwing.com/) - Cropping and cutting the gallery video
 ### Acknowledgements ###
 + [Nikola Lozic](https://www.instagram.com/kings_hand_tattoo/?hl=en) - Photos, materials & support
 + [codeinstitute.net](https://codeinstitute.net/) - Lessons, videos, tutoring & support
