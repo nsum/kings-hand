@@ -300,9 +300,7 @@ article p {
     font-size: 2rem;
     padding: 0.3rem 1rem;
     }
-    .article-row img {
-        padding-top: 1rem;
-    }
+    
         /* Hero image for smaller displays */
     #hero-image-outer {
         width: 100%;
@@ -327,11 +325,15 @@ article p {
         }
     }
     /* /Hero image */
-    
+    #article-hidden {
+        display: none;
+    }
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
-    
+    .article-row img {
+        padding-top: 1rem;
+    }
 }
 
 /*Large (lg) devices (desktops, 992px and up)*/
