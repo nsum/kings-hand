@@ -278,6 +278,15 @@ article p {
     .review-slide {
         display: none;
     }
+    .hr-short {
+        border-top: 2px solid #fafafa;
+        width: 70%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    footer h5 {
+        padding-top: 0.5rem;
+    }
 }
 /*Small (sm) devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
