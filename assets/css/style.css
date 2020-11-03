@@ -19,6 +19,10 @@ hr.hr-divider {
 .row {
     padding: 2rem;
 }
+.headings {
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
 /*-----------------Colors-------------*/
 .navbar-brand,.nav-link {
     color: inherit !important;
@@ -120,7 +124,7 @@ and altered accordingly to fit this project*/
 }
 /*-----------------Alert Section-------------*/
 .alert-container .row {
-    margin: 0;
+    margin: 0 0 2rem 0;
 }
 .alert-container {
     width: 95%;
@@ -135,10 +139,7 @@ and altered accordingly to fit this project*/
     padding: 1rem;
 }
 /*-----------------Carousels-------------*/
-.headings {
-    padding-top: 2rem;
-    padding-bottom: 0;
-}
+
 .carousel-inner .gallery-row {
     max-width: 80%;
     margin-left: auto;
@@ -275,9 +276,7 @@ article p {
     .social-row {
         padding: 0;
     }
-    .carousel-inner .reviews-row {
-        max-width: 90%;
-    }
+    
     .hr-short {
         border-top: 2px solid #fafafa;
         width: 70%;
@@ -290,6 +289,7 @@ article p {
 }
 /*Small (sm) devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
+    
     #image-hidden-md {
         display: none;
     }
@@ -334,6 +334,9 @@ article p {
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
+    .carousel-inner .reviews-row {
+        max-width: 90%;
+    }
     .article-row img {
         padding-top: 1rem;
     }
