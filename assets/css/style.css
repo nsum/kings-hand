@@ -334,6 +334,7 @@ article p {
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
+    
     .carousel-inner .reviews-row {
         max-width: 90%;
     }
