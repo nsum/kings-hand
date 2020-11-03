@@ -156,7 +156,10 @@ and altered accordingly to fit this project*/
 .carousel-control-next, .carousel-control-prev {
         display: none;
     }
-
+/*---------------3 column services-----*/
+.services-index .col-md-4 {
+    padding: 0 1rem;
+}
 /*-----------------Article-------------*/
 .article-row p {
     padding-right: 1rem;
