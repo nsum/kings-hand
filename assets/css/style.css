@@ -275,8 +275,8 @@ article p {
     .social-row {
         padding: 0;
     }
-    .review-slide {
-        display: none;
+    .carousel-inner .reviews-row {
+        max-width: 90%;
     }
     .hr-short {
         border-top: 2px solid #fafafa;
@@ -344,7 +344,7 @@ article p {
     
 }
 /*Extra (xl) large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media (max-width: 1680px) {
     #article-hidden-lg {
         display: none;
     }
