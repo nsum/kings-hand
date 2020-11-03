@@ -290,6 +290,9 @@ article p {
 }
 /*Small (sm) devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
+    #image-hidden-md {
+        display: none;
+    }
     #contact-outline {
         border: none;
     }
@@ -325,7 +328,7 @@ article p {
         }
     }
     /* /Hero image */
-    #article-hidden {
+    #article-hidden-sm {
         display: none;
     }
 }
@@ -338,9 +341,11 @@ article p {
 
 /*Large (lg) devices (desktops, 992px and up)*/
 @media (max-width: 1199px) {
-
+    
 }
 /*Extra (xl) large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+    #article-hidden-lg {
+        display: none;
+    }
 }
