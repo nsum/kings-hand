@@ -183,6 +183,17 @@ and altered accordingly to fit this project*/
 .fa-instagram:hover {
     color: #e1306c;
 }
+/*Services.html*/
+.services-cards .card {
+    background: #282828;
+    border: 1px solid #fafafa;
+    border-radius: 0.5rem;
+    
+}
+.card-padding {
+    padding: 1rem;
+}
+
 /* Footer */
 .hr-short {
     border-top: 2px solid #fafafa;
