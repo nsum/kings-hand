@@ -156,10 +156,6 @@ and altered accordingly to fit this project*/
 .carousel-control-next, .carousel-control-prev {
         display: none;
     }
-/*---------------3 column services-----*/
-.services-index .col-md-4 {
-    padding: 0 1rem;
-}
 /*-----------------Article-------------*/
 .article-row p {
     padding-right: 1rem;
@@ -188,9 +184,12 @@ and altered accordingly to fit this project*/
     background: #282828;
     border: 1px solid #fafafa;
     border-radius: 0.5rem;
-    
 }
 .card-padding {
+    padding: 1rem;
+}
+.services-cards {
+    margin: 0;
     padding: 1rem;
 }
 
