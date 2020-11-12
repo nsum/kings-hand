@@ -1,4 +1,7 @@
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
 ![logo](assets/images/nsum-120.png "nsum logo")
+
 #### Code Institute - Milestone Project 1 
 ## King's Hand Tattoo Salon Website 
 ![Am I Responsive](/assets/readme-files/testing/responsive.png)
@@ -11,7 +14,7 @@ of Milestone Project 1, this website will be 95% functional and built with techn
 so far during the course. After acquiring skills to 100% complete the website, it will be fully functional,
 translated to another language, and deployed. 
 
-## User Experience (UX)
+# User Experience (UX)
 
 +   ### User stories
 
@@ -70,6 +73,7 @@ translated to another language, and deployed.
 +	[startbootstrap.com](https://startbootstrap.com/) - Idea for gallery layout
 +	[w3schools.com](https://www.w3schools.com/) - HTML5/CSS3 references & examples
 +	[getbootstrap.com](https://getbootstrap.com/) - Bootstrap documentation & references
++   [Code Institute Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) - Readme Template
 
 ### Content
 
@@ -101,6 +105,15 @@ translated to another language, and deployed.
 + [Nikola Lozic](https://www.instagram.com/kings_hand_tattoo/?hl=en) - Photos, materials & support
 + [codeinstitute.net](https://codeinstitute.net/) - Lessons, videos, tutoring & support
 + [Mark Railton](https://markrailton.com/) - Mentoring and guidance
+
+# Development process
+  + I wanted to keep the website colorfully simple, so I decided on grey which reminds of modern tattoo ink.
+  + A lot of time was spent making website responsive on all screen sizes.
+  + Initially I made services page but because there was not too much material to dedicate entire page to it, I decided to delete it. All services content fitted into cards in index.html.
+  + I needed to add second (smaller) hero image because on smaller screens big hero image was 70% outsde the screen.
+  + 'Gallery' & 'Reviews' sections contain bootstrap class .card as that layout fitted what I imagined those two sections to be.
+  + 'About' section on index has several paragraphs that become hidden as the screen size gets smaller. This is to save real estate area.
+  + Video is uploaded because I had issues linking to it remotely while developing the website.
 
 # Testing
 
@@ -144,6 +157,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     3. As a First Time Visitor, I want to look for testimonials to understand what salon users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
         + The user can read the About Us and see some testimonials.
         + The user can also scroll to the bottom of any page on the site to locate social media links in the footer, as well as section on bottom of index page.
+    4. As a First Time Visitor, I want to be able to easily see some of their work and contact them for consultations.
+        + Top of the index page contains both "gallery" and "contact" links for immediate call to action.
 
 +   #### Returning Visitor Goals
 
@@ -162,7 +177,55 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 +	Images in about us page appear a bit out of alignment with text on mobile sizes.
 +	Text-area in contact form on contact page is relatively small because if left bigger, it wouldn't stay inside container on mobile and would expand outside the screen.
++   Carousel indicators for gallery & reviews section on index.html are hidden because they overlaped with photos on smaller screen.
 
+# Deployment
 
-### Contact
-email: your.marketer1303@gmail.com
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository.
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository.
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+#
+Contact email: your.marketer1303@gmail.com
