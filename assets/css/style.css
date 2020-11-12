@@ -409,11 +409,10 @@ article p {
     }
 
     /* /Hero image */
-    
+
     #article-hidden-sm {
         display: none;
     }
-
 }
 /*Medium (md) devices (tablets, 768px and up)*/
 @media (max-width: 991px) {
