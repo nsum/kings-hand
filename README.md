@@ -131,6 +131,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 	
 +   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/assets/readme-files/testing/css-test.png)
 
++   [Lighthouse Report - Index](/assets/readme-files/testing/lighthouse.png)
+
 ### Testing User Stories from User Experience (UX) Section
 
 +   #### Niche User Goals
