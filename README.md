@@ -1,6 +1,8 @@
-![Link to live website](http://thegardenreport.com/) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+ [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 ![logo](assets/images/nsum-120.png "nsum logo")
+
+[Link to live website](http://thegardenreport.com/)
 
 #### Code Institute - Milestone Project 1 
 ## King's Hand Tattoo Salon Website 
@@ -18,7 +20,7 @@ translated to another language, and deployed.
 
 +   ### User stories
 
-	+   #### Niche User Goals
+	+   #### Business Specific Visitor Goals
         1. As someone who wants to cover-up an old tattoo, I want to see some of his previous cover-up work and maybe see some testimonials.
         2. As someone interested in tattoo but undecisive, I want to see testimonials, and want to see the tattoing process.
         3. As someone who wants to remove an old tattoo, I want to see some of his previous work and technologies used for tattoo removal.
@@ -107,13 +109,15 @@ translated to another language, and deployed.
 + [Mark Railton](https://markrailton.com/) - Mentoring and guidance
 
 # Development process
-  + I wanted to keep the website colorfully simple, so I decided on grey which reminds of modern tattoo ink.
+  + CNAME file was created automatically by GitHub in order to deploy project to custom domain.
+  + I wanted to keep the website colorfully simple, so I decided on off-white for text and borders and grey for the background which reminds of modern tattoo ink.
   + A lot of time was spent making website responsive on all screen sizes.
   + Initially I made services page but because there was not too much material to dedicate entire page to it, I decided to delete it. All services content fitted into cards in index.html.
   + I needed to add second (smaller) hero image because on smaller screens big hero image was 70% outsde the screen.
   + 'Gallery' & 'Reviews' sections contain bootstrap class .card as that layout fitted what I imagined those two sections to be.
   + 'About' section on index has several paragraphs that become hidden as the screen size gets smaller. This is to save real estate area.
   + Video is uploaded because I had issues linking to it remotely while developing the website.
+  + From start of the process I had code for gallery and reviews carousel indicators but had them hidden as they overlapped with the images. Before submitting the project I decided to delete the code as they weren't necessary.
 
 # Testing
 
@@ -134,13 +138,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As someone who wants to cover-up an old tattoo, I want to see some of his previous cover-up work and maybe see some testimonials.
 
         + The user would see sectioned gallery where he can see cover-up examples, as well as reviews from happy customers.
+        + [View Screenshot](/assets/readme-files/user-stories/story-1.png) 
+        + [View Screenshot](/assets/readme-files/user-stories/story-2.png)
 
     2. As someone interested in tattoo but undecisive, I want to see testimonials, and want to see the tattoing process.
 
         + The user can easily see testimonials on home page and video showing tattoing process start to finish in gallery section.
+        + [View Screenshot](/assets/readme-files/user-stories/story-1.png) 
+        + [View Screenshot](/assets/readme-files/user-stories/story-3.png) 
 
     3. As someone who wants to remove an old tattoo, I want to see some of his previous work and technologies used for tattoo removal.
         + The user can easily see gallery and section specific to tattoo removals. Services section also contains helpful links and info on technology used in tattoo removal.
+        + [View Screenshot](/assets/readme-files/user-stories/story-4.png) 
+        + [View Screenshot](/assets/readme-files/user-stories/story-5.png) 
 
 +   #### First Time Visitor Goals
 
@@ -159,6 +169,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         + The user can also scroll to the bottom of any page on the site to locate social media links in the footer, as well as section on bottom of index page.
     4. As a First Time Visitor, I want to be able to easily see some of their work and contact them for consultations.
         + Top of the index page contains both "gallery" and "contact" links for immediate call to action.
+        + [View Screenshot](/assets/readme-files/user-stories/story-6.png) 
 
 +   #### Returning Visitor Goals
 
@@ -177,25 +188,29 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 +	Images in about us page appear a bit out of alignment with text on mobile sizes.
 +	Text-area in contact form on contact page is relatively small because if left bigger, it wouldn't stay inside container on mobile and would expand outside the screen.
-+   Carousel indicators for gallery & reviews section on index.html are hidden because they overlaped with photos on smaller screen.
 
 # Deployment
 
-### GitHub Pages
+## Custom Domain
+This project is deployed to custom domain [www.thegardenreport.com](www.thegardenreport.com)
 
-The project was deployed to GitHub Pages using the following steps...
-
+### Deploying to Custom Domain
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+6. Scroll back down through the page and locate "Custom Domain" under "GitHub Pages" Section and enter your domain.
+7. Above step will create a commit that adds a CNAME file in the root of your publishing source.
+8. Login to your DNS provider and follow [these steps](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site) to add CNAME and A records to your DNS.
+9. It takes up to 24 hours for changes to take effect.
+
+### GitHub Pages
+
+For deploying to GitHub Pages follow steps 1 to 5 from above "Deploying to Custom Domains" section.
 
 ### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository.
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
