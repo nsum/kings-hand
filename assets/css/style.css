@@ -182,10 +182,6 @@ and altered accordingly to fit this project*/
     padding: 0 2rem;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    display: none;
-}
-
 /*-----------------Article-------------*/
 .article-row p {
     padding-right: 1rem;
