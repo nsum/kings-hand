@@ -124,14 +124,6 @@ and altered accordingly to fit this project*/
     }
 }
 
-#hero-social i{
-    color: #e1306c;
-    font-size: 1.6rem;
-    top: 20px;
-    right: 20px;
-    position: absolute;
-}
-
 #hero-buttons {
     right: 50%;
     transform: translateX(50%);
@@ -333,11 +325,7 @@ article p {
     .radio {
     padding: 0;
     }
-
-    #hero-social {
-        display: none;
-    }
-
+    
     .alert-container {
     width: 95%;
     }
