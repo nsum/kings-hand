@@ -1,4 +1,4 @@
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+![Link to live website](http://thegardenreport.com/) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 ![logo](assets/images/nsum-120.png "nsum logo")
 
